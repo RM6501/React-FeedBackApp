@@ -1,6 +1,6 @@
 import Card from "./shared/Card";
 import { PropTypes } from "prop-types";
-import {AiTwotoneDelete} from "react-icons/ai";
+import {FaTimesCircle} from "react-icons/fa";
 
 function FeedBackItem({item, handleDelete}) {
 
@@ -8,7 +8,7 @@ function FeedBackItem({item, handleDelete}) {
         <Card>
             <div className="num-display">{item.rating}</div>
             <button className="close" onClick={() => handleDelete(item.id)}>
-              <AiTwotoneDelete/>
+              <FaTimesCircle/>
             </button>
             <div className="text-display">{item.text}</div>
         </Card>

@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap');
 
 * {
   box-sizing: border-box;
@@ -8,7 +9,7 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  background-color: #202142;
+  background-color: #004146;
   color: #fff;
   line-height: 1.6;
 }
@@ -31,6 +32,9 @@ header {
   align-items: center;
   margin-bottom: 30px;
 }
+.container h2{
+  font-family: 'Sansita Swashed', cursive;
+}
 
 .card {
   background-color: #fff;
@@ -46,7 +50,7 @@ header {
   color: #fff;
 }
 
-.card h2 {
+.card h3 {
   font-size: 22px;
   font-weight: 600;
   text-align: center;
@@ -87,8 +91,10 @@ header {
 
 .rating li:hover,
 .num-display {
-  background: #ff6a95;
-  color: #fff;
+  background: #D6FE07;
+  border-color: #B20049;
+  color: #B20049;
+  /* text-shadow: 0 0 2px #000; */
 }
 
 [type='radio'] {
@@ -96,7 +102,7 @@ header {
 }
 
 [type='radio']:checked ~ label {
-  background: #ff6a95;
+  background: #D6FE07;
   color: #fff;
 }
 
@@ -109,6 +115,7 @@ header {
 }
 
 input {
+  display: flex;
   flex-grow: 2;
   border: none;
   font-size: 16px;
@@ -121,7 +128,7 @@ input:focus {
 .feedback-stats {
   color: #fff;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -156,11 +163,11 @@ input:focus {
 }
 
 .btn-primary {
-  background-color: #202142;
+  background-color: #004146;
 }
 
 .btn-secondary {
-  background: #ff6a95;
+  background: #D6FE07;
 }
 
 .btn:hover {
@@ -198,7 +205,7 @@ input:focus {
 }
 
 .about-link a:hover {
-  color: #ff6a95;
+  color: #D6FE07;
 }
 
 .about h1 {
