@@ -51,4 +51,4 @@ function FeedBackForm({handleAdd}) {
     )
 }
 
-export default FeedBackForm
+export default FeedBackForm;
