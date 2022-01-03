@@ -193,7 +193,7 @@ input:focus {
 }
 
 .about-link {
-  position: absolute;
+  position: fixed;
   bottom: 20px;
   right: 20px;
   color: #fff;
@@ -209,10 +209,12 @@ input:focus {
 }
 
 .about h1 {
+  text-align: center;
   margin-bottom: 20px;
 }
 
 .about p {
+  text-align: center;
   margin: 10px 0;
 }
 
